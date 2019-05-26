@@ -16,7 +16,7 @@ export default class CHeader extends Component {
         setInterval(() => {
             let now = new Date();
             let timer = formatDate(now);
-            console.log(timer)
+            // console.log(timer)
             this.setState({
                 timer
             })
